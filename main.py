@@ -13,12 +13,12 @@ from telethon.tl.types import (
     InputReportReasonOther
 )
 
-API_ID = YOUR_API_ID 
-apihash = "YOUR_API_HASH "
+API_ID = 30696046 
+apihash = 1c9c23533a9a112fca7e52a68f76ccac
 
 class ziddi:
     def __init__(self, api_id, api_hash):
-        self.client = TelegramClient('session', api_id, api_hash)
+        self.client = TelegramClient('session', 1c9c23533a9a112fca7e52a68f76ccac)
         self.report_reasons = {
             '1': InputReportReasonSpam(),
             '2': InputReportReasonViolence(), 
